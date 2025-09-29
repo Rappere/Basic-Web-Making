@@ -19,7 +19,6 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       margin: 0;
       font-family: Georgia, "Times New Roman", serif;
     }
-
     .top {
       display: flex;
       justify-content: space-between; 
@@ -28,13 +27,11 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       font-size: 14px;                                     /*Adjust as needed*/
       position: relative; 
     }
-
     .top-left {
       margin-top: 2px;                                     /*Adjust as needed*/          
       margin-left: 10px;                                   /*Adjust as needed*/          
       font-family: "Roboto", Arial, sans-serif;
     }
-
     .logo {
       position: absolute;                                  /* detach from flex flow */
       left: 50%;                                           /* move to middle horizontally */
@@ -43,7 +40,6 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       font-weight: bold;
       font-family: "Times New Roman", serif;
     }
-
     .nav {
       display: flex;
       justify-content: center;
@@ -52,7 +48,6 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       margin-top: 6px;                                     /*Adjust as needed*/
       font-family: "Roboto", Arial, sans-serif;
     }
-
     .divider1 {
       /*border-top: 1px solid rgb(121, 121, 121);*/        /*Uncomment only to thicken the line*/
       border-bottom: 1px solid rgb(121, 121, 121);
@@ -61,7 +56,6 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       margin-left: 20px;                                   /*Adjust as needed*/
       margin-right: 20px;                                  /*Adjust as needed*/
     }
-    
     /*A 2nd divider to lessen the gap betwween the 2 dividers*/
     .divider2 {
       /*border-top: 1px solid rgb(121, 121, 121);*/        /*Uncomment only to thicken the line*/
@@ -70,25 +64,21 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       margin-left: 20px;                                   /*Adjust as needed*/
       margin-right: 20px;                                  /*Adjust as needed*/
     }
-
     .article-section {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 20px;                                           /*Adjust as needed*/
       padding: 0 20px 40px 20px;                           /*Adjust as needed*/ 
     }
-
     .article-left {
       display: flex;
       flex-direction: column;
       gap: 20px;                                           /*Adjust as needed*/
     }
-
     .article {
       border-bottom: 1px solid #ccc;
       padding-bottom: 15px;                                /*Adjust as needed*/                
     }
-
     .article h4 {
       font-size: 12px;                                     /*Adjust as needed*/                   
       text-transform: uppercase;
@@ -96,14 +86,12 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       margin: 0 0 6px 0;                                   /*Adjust as needed*/
       font-family: "Roboto", Arial, sans-serif;
     }
-
     .article h2 {
       font-size: 22px;                                     /*Adjust as needed*/             
       margin: 0 0 10px 0;                                  /*Adjust as needed*/   
       font-family: "Merriweather", Georgia, serif;
       font-weight: 700;                                    /*Adjust as needed*/           
     }
-
     .article p {
       font-size: 16px;                                     /*Adjust as needed*/         
       margin: 0 0 6px 0;                                   /*Adjust as needed*/         
@@ -111,24 +99,20 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
       font-family: Georgia, "Times New Roman", serif;
       text-align: justify;
     }
-
     .article span {
       font-size: 12px;                                     /*Adjust as needed*/           
       color: gray;
       font-family: "Roboto", Arial, sans-serif;
     }
-
     .article:last-child {
       border-bottom: none;
     }
-
     .article-right img {
       width: auto;
       height: 80vh;                                        /*Adjust as needed, to fit the screen as was shown in the lab. The image size may look different on your screen*/
       object-fit: cover;
       display: block;
     }
-
     .article-right span {
       display: block;
       text-align: right;
@@ -178,20 +162,17 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>                           <!--like '3 min read', '5 min read' etc-->
       </div>
-
       <div class="article">
         <h2>Article Title Here</h2>
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>
       </div>
-
       <div class="article">
         <h2>Article Title Here</h2>
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>
       </div>
     </div>
-
     <div class="article-right">
       <img src="1920x1080.jpg" alt="Sample Image Title">  <!--Put your image in the same folder and put your image name on src-->
       <span>Sample Text Here</span>                       <!--Put Whatever text here-->
