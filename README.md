@@ -1,3 +1,5 @@
+#Basic Web Coding
+Just ignore these 2 lines to make your life easier. If you're an expert in web engineering, ignore this repository and forget you've ever seen this embarrasment. I'm such a noob at any type of coding.
 <!--We were told to make this layout using basic html and css, not custom fonts, so it will not match the original NYT layout
 Cutting of marks just for the fonts seems petty.
 AI was used in the process, but yeah, it did not help much. 
