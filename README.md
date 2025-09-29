@@ -1,4 +1,4 @@
-#Basic Web Coding
+# Basic Web Coding
 Just ignore these 2 lines to make your life easier. If you're an expert in web engineering, ignore this repository and forget you've ever seen this embarrasment. I'm such a noob at any type of coding.
 <!--We were told to make this layout using basic html and css, not custom fonts, so it will not match the original NYT layout
 Cutting of marks just for the fonts seems petty.
@@ -162,16 +162,19 @@ But hey, it's the future of coding, and you can't learn html, css in one day and
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>                           <!--like '3 min read', '5 min read' etc-->
       </div>
+      
       <div class="article">
         <h2>Article Title Here</h2>
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>
       </div>
+      
       <div class="article">
         <h2>Article Title Here</h2>
         <p>Description Here, sample text, lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
         <span>Timer Here</span>
       </div>
+      
     </div>
     <div class="article-right">
       <img src="1920x1080.jpg" alt="Sample Image Title">  <!--Put your image in the same folder and put your image name on src-->
